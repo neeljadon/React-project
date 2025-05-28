@@ -1,0 +1,90 @@
+/* General Styles */
+body {
+  margin: 0;
+  padding: 0;
+  font-family: 'Segoe UI', Arial, sans-serif;
+  background-color: #f8f9fa;
+}
+
+/* Navbar logo sizing */
+.navbar-brand img {
+  height: 40px;
+}
+
+/* Product Card Styling */
+.product-card {
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+  border: none;
+}
+
+.product-card:hover {
+  transform: scale(1.05);
+  box-shadow: 0 0 15px rgba(0, 0, 0, 0.2);
+}
+
+/* Carousel Image Styling */
+.carousel-item img {
+  object-fit: cover;
+  height: 500px;
+}
+
+/* Highlights hover effect */
+.hover-card {
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+  border-radius: 12px;
+}
+
+.hover-card:hover {
+  transform: scale(1.03);
+  box-shadow: 0 6px 20px rgba(0, 0, 0, 0.15);
+}
+
+/* Footer Styling */
+footer {
+  background-color: #212529;
+  color: white;
+  padding: 20px 0;
+  font-size: 14px;
+}
+
+/* Link Styling */
+a.text-dark:hover {
+  text-decoration: none;
+  color: #0d6efd;
+}
+
+/* Offcanvas customizations */
+.offcanvas-body .nav-link {
+  font-size: 16px;
+  padding: 10px 0;
+}
+
+/* Responsive tweaks */
+@media (max-width: 768px) {
+  .carousel-item img {
+    height: 300px;
+  }
+
+  .product-card {
+    width: 100px !important;
+  }
+
+  .product-card img {
+    height: 100px !important;
+  }
+}
+.carousel-caption h3 {
+  color: black !important; 
+}
+
+.carousel-caption {
+  color: black !important;
+}
+.caption-custom {
+  top: 20px !important;      /* move caption to top */
+  left: 20px !important;     /* move caption to left */
+  right: auto !important;    /* override right */
+  bottom: auto !important;   /* override bottom */
+  text-align: left !important;
+}
+
