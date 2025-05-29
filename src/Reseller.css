@@ -77,14 +77,16 @@ a.text-dark:hover {
   color: black !important; 
 }
 
+/* caption styling  */
+
 .carousel-caption {
   color: black !important;
 }
 .caption-custom {
-  top: 20px !important;      /* move caption to top */
-  left: 20px !important;     /* move caption to left */
-  right: auto !important;    /* override right */
-  bottom: auto !important;   /* override bottom */
+  top: 20px !important; 
+  left: 20px !important;    
+  right: auto !important;    
+  bottom: auto !important;   
   text-align: left !important;
 }
 
